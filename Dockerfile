@@ -10,7 +10,7 @@ EXPOSE 9091
 
 # Set the default port to be used
 # We'll use an environment variable to decide which port to use
-ENV TOMCAT_PORT 9090
+ENV TOMCAT_PORT 9091
 
 # Start Tomcat with the port specified by the environment variable
 CMD ["sh", "-c", "/usr/local/tomcat/bin/catalina.sh run -Dtomcat.port=$TOMCAT_PORT"]
