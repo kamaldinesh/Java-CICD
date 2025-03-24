@@ -8,7 +8,7 @@ COPY ./target/*.war /usr/local/tomcat/webapps/ROOT.war
 RUN sed -i 's/8080/9090/g' /usr/local/tomcat/conf/server.xml
 
 # Expose port 9091
-EXPOSE 9091
+EXPOSE 9090
 
 # Start Tomcat
 CMD ["catalina.sh", "run"]
