@@ -1,5 +1,7 @@
 FROM tomcat:7.0
 
+ARG PORT=9091
+
 # Copy WAR file
 COPY ./target/*.war /usr/local/tomcat/webapps/ROOT.war
 
