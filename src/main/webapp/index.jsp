@@ -2,7 +2,7 @@
 <head>
 <title>Spring MVC Calculator</title></head>
 <body>
-<h2 align="center">Dev Spring MVC Basic Calculator</h2>
+<h2 align="center">Developer Spring MVC Basic Calculator</h2>
 <br>
 <div align="center">
 <form action="processform" method="post">
