@@ -100,9 +100,11 @@
         }
     </style>
 <body>
+
+
+<div align="center">
 <h2 align="center">Production Spring MVC Basic Calculator</h2>
 <br>
-<div align="center">
 <form action="processform" method="post">
 	
 	  <label for="number1">First Number:</label><br>
